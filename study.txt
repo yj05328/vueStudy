@@ -1,0 +1,30 @@
+<div id="app">
+
+<ul v-for="item in lists">
+
+{{item}}
+
+</ul>
+
+</div>
+
+====================
+
+var app = new Vue({
+
+el:'#app',
+data:{
+
+'lists':{
+
+	'name':'zhangsan'
+	'sex' : 'woman'
+	'age' : '23'	
+
+	}
+
+
+}
+
+
+});
